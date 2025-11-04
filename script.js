@@ -21,7 +21,7 @@ let total = subtotal - potongan + pajak
 
 // langkah 5: menampilkan hasil
 document.getElementById("hasil").innerHTML = `
-Subtotal: Rp (${subtotal}%): -Rp ${potongan} <br>
+Subtotal: Rp ${subtotal} <br>
 Diskon (${diskon}%): -Rp ${potongan} <br>
 Pajak (11%) : +Rp ${pajak} <br>
 Total bayar : Rp ${total}
